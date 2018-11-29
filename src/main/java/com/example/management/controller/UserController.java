@@ -31,7 +31,7 @@ public class UserController {
 		}
 		
 		
-		@RequestMapping("/list/find/{id}")
+		@RequestMapping("/find/{id}")
 		public User findUser(@PathVariable Integer id){
 			return userService.findById(id);
 			
